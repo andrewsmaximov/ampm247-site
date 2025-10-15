@@ -1,0 +1,17 @@
+repo: andrewsm.axiom/ampm247-site
+branch: feat/mvp-skeleton
+context:
+  - Next.js, Node 20, Tailwind, шрифт Manrope
+  - страницы: / , /pricing, /partners, /auth
+  - общий layout с навбаром и футером, базовый SEO (title/description)
+tasks:
+  - создать каркас Next.js и общий layout
+  - сверстать 4 страницы-заглушки
+  - подключить Tailwind и скрипт сборки
+  - обновить README с командами запуска
+  - приложить скриншоты страниц в описание PR
+acceptance:
+  - сборка проходит (CI зелёный)
+  - Lighthouse desktop ≥ 90
+artifacts:
+  - Pull Request в ветку dev с описанием и скринами
